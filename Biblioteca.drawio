@@ -1,9 +1,44 @@
-<mxfile host="app.diagrams.net" modified="2024-05-10T03:37:37.737Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" version="24.3.1" etag="GIKtI2-GkC-8B7P27LiL" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-10T03:51:34.054Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="m1JCdiwGNE_elxTwKlmB" version="24.3.1" type="github">
   <diagram name="Página-1" id="5UhaUp2Hi72bsZf6Lmdj">
-    <mxGraphModel>
+    <mxGraphModel dx="459" dy="472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="k2bazmmMYpicAM8PdwA0-1" value="&lt;b&gt;Biblioteca&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="30" width="140" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="k2bazmmMYpicAM8PdwA0-2" value="+ cargarMaterial()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="k2bazmmMYpicAM8PdwA0-1">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="k2bazmmMYpicAM8PdwA0-3" value="+ cargarPersona()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="k2bazmmMYpicAM8PdwA0-1">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="k2bazmmMYpicAM8PdwA0-5" value="MaterialBibliografico" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="210" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="k2bazmmMYpicAM8PdwA0-6" value="- ide: int&lt;div&gt;- titulo: string&lt;/div&gt;&lt;div&gt;+ autor: string&lt;/div&gt;&lt;div&gt;+ fechaPublicacion: date&lt;/div&gt;&lt;div&gt;+ ubicacion: string&lt;/div&gt;&lt;div&gt;+ prestarLibro: boolean&lt;/div&gt;&lt;div&gt;+ nroPagina: int&lt;/div&gt;&lt;div&gt;+ editorial: string&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="k2bazmmMYpicAM8PdwA0-5">
+          <mxGeometry y="26" width="210" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="k2bazmmMYpicAM8PdwA0-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="k2bazmmMYpicAM8PdwA0-5">
+          <mxGeometry y="150" width="210" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="k2bazmmMYpicAM8PdwA0-8" value="+ conseguirNumeroMateriales():&lt;div&gt;+ obtenerInformacion(): string&lt;/div&gt;&lt;div&gt;+ reservar(): boolean&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="k2bazmmMYpicAM8PdwA0-5">
+          <mxGeometry y="160" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k2bazmmMYpicAM8PdwA0-9" value="Estanteria" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="510" width="210" height="180" as="geometry">
+            <mxRectangle x="50" y="510" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2bazmmMYpicAM8PdwA0-10" value="- ideEstanteria: int&lt;div&gt;- nivel: int&lt;/div&gt;&lt;div&gt;+ pasillo: string&lt;/div&gt;&lt;div&gt;+ seccionEstanteria&lt;/div&gt;&lt;div&gt;+ materialBibliografico: string&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="k2bazmmMYpicAM8PdwA0-9">
+          <mxGeometry y="26" width="210" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="k2bazmmMYpicAM8PdwA0-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="k2bazmmMYpicAM8PdwA0-9">
+          <mxGeometry y="110" width="210" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="k2bazmmMYpicAM8PdwA0-12" value="+ obtenerUbicacionMaterial(): string&lt;div&gt;+ asignarUbicacion(): void&lt;/div&gt;&lt;div&gt;+ buscarMaterialPorUbicacion(): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="k2bazmmMYpicAM8PdwA0-9">
+          <mxGeometry y="120" width="210" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
