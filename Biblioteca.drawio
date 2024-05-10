@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-10T04:21:53.379Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="rrljoqbOr4ObdOp-W81q" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-10T04:22:00.495Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="PsPFzWgh4uifgEtHqQ8x" version="24.3.1" type="github">
   <diagram name="Página-1" id="5UhaUp2Hi72bsZf6Lmdj">
-    <mxGraphModel dx="439" dy="410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="694" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,20 +15,6 @@
         </mxCell>
         <mxCell id="k2bazmmMYpicAM8PdwA0-8" value="+ conseguirNumeroMateriales():&lt;div&gt;+ obtenerInformacion(): string&lt;/div&gt;&lt;div&gt;+ reservar(): boolean&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="k2bazmmMYpicAM8PdwA0-5">
           <mxGeometry y="90" width="210" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="k2bazmmMYpicAM8PdwA0-9" value="Estanteria" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="540" width="210" height="180" as="geometry">
-            <mxRectangle x="50" y="510" width="90" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="k2bazmmMYpicAM8PdwA0-10" value="- ideEstanteria: int&lt;div&gt;- nivel: int&lt;/div&gt;&lt;div&gt;+ pasillo: string&lt;/div&gt;&lt;div&gt;+ seccionEstanteria&lt;/div&gt;&lt;div&gt;+ materialBibliografico: string&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="k2bazmmMYpicAM8PdwA0-9">
-          <mxGeometry y="26" width="210" height="84" as="geometry" />
-        </mxCell>
-        <mxCell id="k2bazmmMYpicAM8PdwA0-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="k2bazmmMYpicAM8PdwA0-9">
-          <mxGeometry y="110" width="210" height="10" as="geometry" />
-        </mxCell>
-        <mxCell id="k2bazmmMYpicAM8PdwA0-12" value="+ obtenerUbicacionMaterial(): string&lt;div&gt;+ asignarUbicacion(): void&lt;/div&gt;&lt;div&gt;+ buscarMaterialPorUbicacion(): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="k2bazmmMYpicAM8PdwA0-9">
-          <mxGeometry y="120" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k2bazmmMYpicAM8PdwA0-14" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ElementoDeBiblioteca&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="370" y="585" width="560" height="390" as="geometry" />
